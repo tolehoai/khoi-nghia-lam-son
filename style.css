@@ -17,7 +17,7 @@ audio {
     background-size: cover;
     background-position: top;
     position: relative;
-    /* height: 100vh; */
+    height: 100vh;
     clip-path: ellipse(65% 58% at 52% 32%);
     /* background-color: #f4f4f4; */
     /* background-image: linear-gradient(315deg, #461220 0%, #e0d4ae 74%); */
@@ -38,13 +38,22 @@ audio {
     text-align: center;
     display: inline-block;
     margin-top: 50px;
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
 }
 
 .header-year {
     color: #d79922;
     display: inline-block;
     margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.cautho-1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    color: #d79922;
 }
 
 .contain {
